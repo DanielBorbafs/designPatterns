@@ -1,0 +1,3 @@
+interface Paciente {
+    void registrar();
+}

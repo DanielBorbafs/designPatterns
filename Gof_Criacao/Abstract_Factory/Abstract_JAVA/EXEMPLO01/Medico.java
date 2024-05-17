@@ -1,0 +1,3 @@
+interface Medico {
+    void atender();
+}

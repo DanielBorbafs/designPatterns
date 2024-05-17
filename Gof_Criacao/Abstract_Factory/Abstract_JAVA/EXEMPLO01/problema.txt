@@ -1,0 +1,13 @@
+onde poderiamos e como encaixariamos esse padrao em um sistema de consulta medica por exemplo?
+No contexto de um sistema de consulta médica, o padrão Abstract Factory poderia ser aplicado para lidar com a criação de diferentes tipos de consultas
+ médicas e seus respectivos componentes, como pacientes, médicos, e recursos médicos (por exemplo, salas de exames, salas de espera etc.).
+
+Vamos considerar uma implementação simplificada onde temos dois tipos de consultas: consulta presencial e consulta online. Para cada tipo de consulta,
+ precisamos criar diferentes objetos, como pacientes, médicos e recursos médicos específicos. 
+ Podemos usar o padrão Abstract Factory para encapsular a lógica de criação desses objetos para cada tipo de consulta.
+
+Passos para aplicação do padrão Abstract Factory:
+- Definir a Interface da Fábrica Abstrata: Uma interface que declara métodos para criar os objetos relacionados a uma família de produtos, como pacientes, médicos e recursos médicos.
+- Implementar Fábricas Concretas: Classes que implementam a interface da fábrica abstrata e fornecem implementações específicas para criar os objetos relacionados a uma família de produtos.
+- Criar Interfaces para os Produtos: Interfaces para os produtos individuais, como Paciente, Medico e RecursoMedico.
+- Implementar Produtos Concretos: Classes que implementam as interfaces de produtos e fornecem implementações específicas para os produtos individuais.

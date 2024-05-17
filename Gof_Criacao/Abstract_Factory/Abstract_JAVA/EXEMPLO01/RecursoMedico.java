@@ -1,0 +1,3 @@
+interface RecursoMedico {
+    void reservar();
+}
