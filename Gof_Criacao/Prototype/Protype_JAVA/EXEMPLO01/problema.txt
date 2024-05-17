@@ -1,0 +1,3 @@
+ Imagine que você trabalha em uma agência de marketing e frequentemente precisa criar vários tipos de banners promocionais para diferentes clientes. 
+ Cada banner tem um layout, cor, e mensagem específicos, mas muitas vezes você precisa criar um novo banner que seja uma cópia de um banner existente, 
+ apenas com pequenas modificações.
